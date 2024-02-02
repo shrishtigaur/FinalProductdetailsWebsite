@@ -1,0 +1,15 @@
+Create database Products
+
+/****** Object: Table [dbo].[Product] Script Date: 02-02-2024 21:19:54 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Product] (
+    [Id]          INT           NOT NULL,
+    [Name]        VARCHAR (30)  NULL,
+    [Description] VARCHAR (100) NULL,
+    [Price]       DECIMAL (18)  NULL
+);
